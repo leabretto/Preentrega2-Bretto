@@ -48,6 +48,8 @@ i{
     padding: 10px;
 }
 
+
+
 .descripcion{
     font-size: 24px;
     background-color: black;
@@ -87,6 +89,7 @@ i{
 }
 
 .foto-back{
+    
     background-image: url(imagenes/visitanos.jpg);
     background-position: center;
     background-size: cover;
@@ -145,9 +148,12 @@ span{
 .contenedor-titulo{
     background-color: black;
    
+  
+
     
-    
-}
+   }
+
+
 
 .titulo-productos{
    color: white;
@@ -155,9 +161,26 @@ span{
    text-align: center;
 }
 
+
 .roll-in-left {
-	-webkit-animation: roll-in-left 0.6s ease-out 1s both;
+    -webkit-animation: roll-in-left 0.6s ease-out 1s both;
 	        animation: roll-in-left 0.6s ease-out 1s both;
+
+}
+.foto1{
+    animation-delay: 1s;
+}
+
+.foto2{
+    animation-delay: 1.5s;
+}
+
+.foto3{
+    animation-delay: 2s;
+}
+
+.foto4{
+    animation-delay: 2.5s;
 }
 
 
@@ -166,7 +189,7 @@ span{
  * animation roll-in-left
  * ----------------------------------------
  */
- @-webkit-keyframes roll-in-left {
+ @-webkit-keyframes roll-in-left{
     0% {
       -webkit-transform: translateX(-800px) rotate(-540deg);
               transform: translateX(-800px) rotate(-540deg);
@@ -192,4 +215,10 @@ span{
   }
   
 
+
+@media only screen and(max-width:770px){
+    .parrafo{
+            width:fit-content;
+    }
+}
 
