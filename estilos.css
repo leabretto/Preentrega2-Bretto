@@ -1,0 +1,195 @@
+.logo{
+    width: 80px;
+    border: 1px whitesmoke solid;
+    border-radius: 20px;
+}
+
+.navbar{
+        background-color: goldenrod;
+}
+
+.carousel-inner{
+    height: 400px;
+    object-fit: cover;
+}
+
+.titulo{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: black;
+    color: azure;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.fotos{
+    height: 400px
+    
+  
+}
+
+.footer{
+    height: 200px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+h4{
+    padding: 20px;
+    letter-spacing: 10px;
+}
+
+i{
+    font-size: 30px;
+    letter-spacing: 30px;
+    padding: 10px;
+}
+
+.descripcion{
+    font-size: 24px;
+    background-color: black;
+    color: aliceblue;
+    height: 150px;
+}
+
+.descripcion1{
+    font-size: 24px;
+    background-color: black;
+    color: aliceblue;
+    height: 158px;
+}
+
+.footer p{
+    margin-top: 20px;
+}
+
+.titulo-sucursales{
+    font-size: xx-large;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px aliceblue;
+    background-color:black;
+    color: azure;
+    padding: 20px;
+}
+.btn{
+    color: black !important;
+    text-decoration: none;
+    
+}
+
+.btn:hover{
+    background-color: black;
+    color: whitesmoke !important;
+}
+
+.foto-back{
+    background-image: url(imagenes/visitanos.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.lead{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.350);
+    font-weight: 900;
+    
+    
+}
+
+.display-4{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.350);
+    font-weight: 900;
+    
+    
+}
+
+span{
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.productos{
+    height: 400px;
+}
+
+.foto-productos{
+    position: relative;
+    height: 400px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+}
+
+.parrafo{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: uppercase;
+    
+}
+
+.img{
+       height: 300px;
+       background-size: cover;
+       background-position: center;
+}
+
+.contenedor-titulo{
+    background-color: black;
+   
+    
+    
+}
+
+.titulo-productos{
+   color: white;
+   text-transform: uppercase;
+   text-align: center;
+}
+
+.roll-in-left {
+	-webkit-animation: roll-in-left 0.6s ease-out 1s both;
+	        animation: roll-in-left 0.6s ease-out 1s both;
+}
+
+
+/**
+ * ----------------------------------------
+ * animation roll-in-left
+ * ----------------------------------------
+ */
+ @-webkit-keyframes roll-in-left {
+    0% {
+      -webkit-transform: translateX(-800px) rotate(-540deg);
+              transform: translateX(-800px) rotate(-540deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0) rotate(0deg);
+              transform: translateX(0) rotate(0deg);
+      opacity: 1;
+    }
+  }
+  @keyframes roll-in-left {
+    0% {
+      -webkit-transform: translateX(-800px) rotate(-540deg);
+              transform: translateX(-800px) rotate(-540deg);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0) rotate(0deg);
+              transform: translateX(0) rotate(0deg);
+      opacity: 1;
+    }
+  }
+  
+
+
