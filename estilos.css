@@ -118,7 +118,7 @@ span{
 .foto-productos{
     position: relative;
     height: 400px;
-    background-color: grey;
+    background-color: chocolate;
     display: flex;
     align-items: center;
 }
@@ -179,7 +179,13 @@ span{
 .img1{
     height: 200px;
     object-fit: cover;
+    transform: scale(1);
+    
 
+}
+
+.img1:hover{
+    transform: scale(1.2);
 }
 
 
