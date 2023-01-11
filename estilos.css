@@ -60,10 +60,13 @@ h4{
 
 
 .descripcion{
+    height: 150px;
     font-size: 24px;
     background-color: black;
     color: aliceblue;
     text-align: center;
+    padding-block: 10px ;
+    
     
     }
 
@@ -184,34 +187,29 @@ h4{
 
 
 .foto1{
-    animation-delay: 1.2s;
+    animation-delay: 1s;
 }
 
 .foto2{
-    animation-delay: 1.7s;
+    animation-delay: 1.5s;
 }
 
 .foto3{
-    animation-delay: 1.9s;
+    animation-delay: 2s;
 }
 
 .foto4{
-    animation-delay: 2.2s;
+    animation-delay: 2.5s;
 }
 
 .img1{
-    height: 200px;
+    
     object-fit: cover;
-    filter: grayscale(100%);
-    transition: 0.5s;
-    
-}
-.img1:hover{
-    filter: grayscale(0%);
-    
+    }
 
-}
-
+    .footer a:hover{
+        color: springgreen;
+    }
 
 
 
@@ -232,9 +230,9 @@ h4{
  @-webkit-keyframes slide-in-blurred-tl {
     0% {
       -webkit-transform: translate(-1000px, -1000px) skew(80deg, 10deg);
-              transform: translate(-1000px, -1000px) skew(80deg, 10deg);
-      -webkit-transform-origin: 100% 0%;
-              transform-origin: 100% 0%;
+      transform: translate(-1000px, -1000px) skew(80deg, 10deg);
+      -webkit-transform-origin: 100% 0%;       
+      transform-origin: 100% 0%;
       -webkit-filter: blur(40px);
               filter: blur(40px);
       opacity: 0;
@@ -280,9 +278,18 @@ h4{
         }
     100%{
         opacity: 1;
+        color: crimson;
         
     }
     }
     
 
- 
+    
+
+    @media  only screen and(max-width:760px){
+        .contenedor-imagen{
+            max-height: 300px;
+        }
+       
+    }
+
